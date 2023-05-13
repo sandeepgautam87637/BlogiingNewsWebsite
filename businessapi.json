@@ -1,0 +1,26 @@
+[
+    {
+        "blogimg": "blog25.jpg",
+        "blogname": "Business",
+        "date": " jan-1-2022",
+        "blogdet": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "blogimg": "blog26.jpg",
+        "blogname": "Business",
+        "date": " jan-1-2022",
+        "blogdet": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "blogimg": "blog27.jpg",
+        "blogname": "Business",
+        "date": " jan-1-2022",
+        "blogdet": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "blogimg": "blog28.jpg",
+        "blogname": "Business",
+        "date": " jan-1-2022",
+        "blogdet": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+]

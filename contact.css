@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header-styling */
+#header {
+    /* background-color: rgb(237, 243, 232); */
+    padding: 0px 20px;
+    display: flex;
+    /* position: sticky;
+    top: 0;
+    left: 0; */
+    background-color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.imglogo {
+    height: 90px;
+    width: 200px;
+}
+
+#headdate {
+    position: absolute;
+    right: 45px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(108, 117, 125);
+}
+
+#datebox {
+    height: 50px;
+    width: 600px;
+    border: 1px solid rgb(255, 240, 240);
+    position: absolute;
+    right: 45px;
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar-Styling */
+#navbar {
+    background-color: rgb(251, 255, 255);
+    border: 1px solid rgb(229, 239, 239);
+    padding: 6px 30px;
+    overflow: none;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#unorderlist {
+    display: flex;
+    margin-left: 22px;
+}
+
+.allitems {
+    list-style: none;
+    margin-left: 1px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(108, 117, 125);
+    font-weight: 400;
+    height: 54px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.allitems a{
+    color: rgb(108, 117, 125);
+    text-decoration: none;
+}
+#catun {
+    margin-top: 12rem;
+    position: relative;
+    right: 7rem;
+    display: none;
+    /* border: 2px solid black; */
+}
+
+.anchorist{
+    color: rgb(108, 117, 125);
+    text-decoration: none;
+}
+.anchorist:hover{
+    color: white;
+}
+
+.allitems:hover {
+    background-color: rgb(237, 28, 36);
+    ;
+    color: white;
+}
+
+.itemactive {
+    background-color: rgb(237, 28, 36);
+    color: white;
+}
+
+#search {
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgb(108, 117, 125);
+    border-right: none;
+    outline: none;
+    position: absolute;
+    right: 130px;
+}
+
+#searchbtn {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(108, 117, 125);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 130px;
+}
+
+.imagebtn {
+    height: 20px;
+    width: 20px;
+    margin-left: 9px;
+}
+
+/* MainSection */
+#contactmainsec {
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(232, 236, 240);
+}
+
+.contboxist {
+    height: 55px;
+    width: 70vw;
+    display: block;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.contxtist {
+    padding-top: 8px;
+    padding-left: 18px;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 50, 55);
+}
+
+#leftandrightbox {
+    display: flex;
+}
+
+.leftconboxist {
+    height: 380px;
+    width: 420px;
+    background-color: white;
+    margin-top: 65px;
+   margin-left:14.4rem;
+    
+}
+
+.rightconboxsec {
+    height:360px;
+    width: 623px;
+    background-color:white;
+    margin-top: 65px;
+    margin-left:33px;
+}
+.getist{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 50, 55);
+}
+.getparaist{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 50, 55);
+}
+#imgandtextist{
+    display: flex;
+}
+.locationcon{
+    height:34px;
+    width:34px;
+    margin-left: 14px;
+    margin-top: 26px;
+}
+.detailboxist{
+    height: 60px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.ourofficetxt{
+    padding-top:4px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 36, 40);
+
+}
+.ouroffpara{
+    padding-top:4px;
+    padding-left: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(99, 105, 110);
+
+}
+.conname{
+    height:45px;
+    width:270px;
+    margin-top:30px;
+    margin-left: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid rgb(144, 148, 152);
+    outline: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.consubject{
+    height:45px;
+    width:569px;
+    margin-top:30px;
+    margin-left: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid rgb(144, 148, 152);
+    outline: none;
+}
+#textcon{
+    height:95px;
+    width:569px;
+    margin-top:30px;
+    margin-left: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid rgb(144, 148, 152);
+    padding-top: 6px;
+    outline: none;
+}
+#sendmsgist{
+    height: 44px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(248, 22, 22);
+    color:white;
+    border: 1px solid  rgb(248, 22, 22);
+}
+
+
+
+/* footer-Styling */
+#footerist {
+    height:300px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+}
+
+.boxfooter {
+    height: 300px;
+    width: 380px;
+    /* border: 2px solid black; */
+}
+
+.boxfooterimgist {
+    height: 90px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.foottxtist {
+    padding-top: 2px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(108, 117, 125);
+}
+
+#allfoootbtn {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 34px;
+}
+
+.footbtnist {
+    height: 38px;
+    width: 38px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(153, 145, 145);
+}
+
+.inst2 {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+
+.linkedin {
+    height: 20px;
+    width: 20px;
+    margin-left: 7px;
+}
+
+.footbtnist:hover {
+    background-color: rgb(44, 58, 70);
+}
+
+.fotcattxt {
+    padding-top: 40px;
+    padding-left: 25px;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: #343a40;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#footcatbtnsec {
+    margin-left: 25px;
+    margin-top: 23px;
+
+}
+
+.footallbtnthird {
+    height: 30px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 6px;
+    border: 1px solid rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    background-color: white;
+}
+
+.footallbtnthirdent {
+    width: 110px;
+}
+
+.footallbtnthird:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.aboutfoottxt{
+    color:rgb(108, 117, 125);
+    padding-top: 32px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.advertisefoottxt{
+    color:rgb(108, 117, 125);
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.policyfoottxt{
+    color:rgb(108, 117, 125);
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.termsfoottxt{
+    color:rgb(108, 117, 125);
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactfoottxt{
+    color:rgb(108, 117, 125);
+    padding-top: 10px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
